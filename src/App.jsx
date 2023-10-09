@@ -1,11 +1,17 @@
-import {Button} from "@nextui-org/react";
+import {Card, CardBody} from "@nextui-org/react";
 
 function App() {
-    return (
-      <Button color="primary">
-        Button
-      </Button>
-    )
+
+  return (
+    <div style={{'width': '50%'}}>
+        <Card>
+      <CardBody>
+        <p>Make beautiful websites regardless of your design experience.</p>
+      </CardBody>
+    </Card>
+    </div>
+
+  )
 }
 
 export default App
